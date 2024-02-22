@@ -22,6 +22,18 @@ void ExibirMenuDeOpcoes()
     string opecaoEscolhida = Console.ReadLine()!;
     switch (int.Parse(opecaoEscolhida))
     {
+        case 1: 
+            Console.WriteLine("Cadastro de música");
+            break;
+        case 2:
+            Console.WriteLine("Exibição das músicas cadastradas");
+            break;
+        case 3:
+            Console.WriteLine("Avaliação de uma música");
+            break;
+        case 4:
+            Console.WriteLine("Detalhe de uma música");
+            break;
         case -1:
             Console.WriteLine("Tchau tchau :)");
             break;
